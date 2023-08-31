@@ -4,6 +4,9 @@ const pastTime = $('#past-hour');
 const currentTime = $('#current-hour');
 const futureTime = $('#future-hour');
 
+let dateDisplay = dayjs().format('MMMM DD, YYYY');
+  $('#currentDay').text(dateDisplay);
+
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
@@ -26,8 +29,6 @@ $(function () {
   // attribute of each time-block be used to do this?
   localStorage.setItem('textarea', JSON.stringify(userInput));
   // TODO: Add code to display the current date in the header of the page.
-  let dateDisplay = dayjs().format('MMMM DD, YYYY');
-  $('#currentDay').text(dateDisplay);
 
 });
 
