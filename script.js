@@ -18,7 +18,6 @@ $(function () {
  
  });
 
-
  // displays input from local storage
  textContainer.each(function(){
   var text = $(this).parent().attr('id');
@@ -38,7 +37,7 @@ function timeElapsing () {
 // sets local time
   let now = dayjs('H');
 
-  $('.time-block')
+
 
 };
 
