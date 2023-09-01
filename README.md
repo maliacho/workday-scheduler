@@ -14,6 +14,7 @@ WHEN I refresh the page
 THEN the saved events persist
 
 ### Screenshot 
+<img width="1149" alt="workday-scheduler" src="https://github.com/maliacho/workday-scheduler/assets/141271179/525c5700-c46d-4989-80f6-28b84df822a6">
 
 
 #### Technologies Used
